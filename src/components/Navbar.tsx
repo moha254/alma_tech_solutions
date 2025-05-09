@@ -32,12 +32,7 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
             <Link to="/pricing" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Pricing</Link>
             <Link to="/portfolio" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Portfolio</Link>
             <Link to="/contact" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Contact</Link>
-            <button
-              onClick={toggleTheme}
-              className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
-            >
-              {isDark ? <Sun size={20} /> : <Moon size={20} />}
-            </button>
+          
           </div>
 
           {/* Mobile menu button */}
